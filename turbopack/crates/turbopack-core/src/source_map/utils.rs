@@ -9,8 +9,8 @@ pub fn add_default_ignore_list(map: &mut SourceMap) {
     let mut ignored_ids = HashSet::new();
 
     for (source_id, source) in map.sources().enumerate() {
-        if source.starts_with(concatcp!(SOURCE_MAP_PREFIX, "[next]"))
-            || source.starts_with(concatcp!(SOURCE_MAP_PREFIX, "[turbopack]"))
+        if source.starts_with(concatcp!(SOURCE_MAP_PREFIX, "next"))
+            || source.starts_with(concatcp!(SOURCE_MAP_PREFIX, "turbopack"))
             || source.contains("/node_modules/")
         {
             ignored_ids.insert(source_id);
