@@ -1,6 +1,6 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["output/4e721_crates_turbopack-tests_tests_snapshot_comptime_define_input_index_4d74c0.js", {
 
-"[project]/turbopack/crates/turbopack-tests/tests/snapshot/comptime/define/input/index.js [test] (ecmascript)": (function(__turbopack_context__) {
+"PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/comptime/define/input/index.js [test] (ecmascript)": (function(__turbopack_context__) {
 
 var { g: global, d: __dirname, m: module, e: exports } = __turbopack_context__;
 {

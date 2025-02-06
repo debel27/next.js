@@ -1,6 +1,6 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["output/b1abf_turbopack-tests_tests_snapshot_imports_ignore-comments_input_vercel_mjs_9a2c48._.js", {
 
-"[project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/vercel.mjs [test] (ecmascript)": ((__turbopack_context__) => {
+"PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/vercel.mjs [test] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, d: __dirname } = __turbopack_context__;

@@ -1230,8 +1230,8 @@ export default function Home() {
     if (isTurbopack) {
       // FIXME: display the sourcemapped stack frames
       expect(stackFrames).toMatchInlineSnapshot(`
-       "at [project]/app/utils.ts [app-client] (ecmascript) (app/utils.ts (1:7))
-       at [project]/app/page.js [app-client] (ecmascript) (app/page.js (2:1))"
+       "at PROJECT/app/utils.ts [app-client] (ecmascript) (app/utils.ts (1:7))
+       at PROJECT/app/page.js [app-client] (ecmascript) (app/page.js (2:1))"
       `)
     } else {
       // FIXME: Webpack stack frames are not source mapped

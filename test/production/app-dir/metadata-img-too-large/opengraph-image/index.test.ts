@@ -14,7 +14,7 @@ describe('app-dir - metadata-img-too-large opengraph-image', () => {
     await next.build()
 
     const regex = isTurbopack
-      ? // in Turbopack, the path is simplified as [project]/...
+      ? // in Turbopack, the path is simplified as PROJECT/...
         /Error: File size for Open Graph image "\[project\]\/app\/opengraph-image\.png" exceeds 8MB/
       : /Error: File size for Open Graph image ".*\/app\/opengraph-image\.png" exceeds 8MB/
 

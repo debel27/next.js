@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
     "output/b1abf_turbopack-tests_tests_snapshot_runtime_default_dev_runtime_input_index_bfa467.js",
     {},
-    {"otherChunks":["output/b1abf_turbopack-tests_tests_snapshot_runtime_default_dev_runtime_input_index_9cac9e.js"],"runtimeModuleIds":["[project]/turbopack/crates/turbopack-tests/tests/snapshot/runtime/default_dev_runtime/input/index.js [test] (ecmascript)"]}
+    {"otherChunks":["output/b1abf_turbopack-tests_tests_snapshot_runtime_default_dev_runtime_input_index_9cac9e.js"],"runtimeModuleIds":["PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/runtime/default_dev_runtime/input/index.js [test] (ecmascript)"]}
 ]);
 (() => {
 if (!Array.isArray(globalThis.TURBOPACK)) {

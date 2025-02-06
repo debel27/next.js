@@ -14,7 +14,7 @@ describe('app-dir - metadata-img-too-large twitter-image', () => {
     await next.build()
 
     const regex = isTurbopack
-      ? // in Turbopack, the path is simplified as [project]/...
+      ? // in Turbopack, the path is simplified as PROJECT/...
         /Error: File size for Twitter image "\[project\]\/app\/twitter-image\.png" exceeds 5MB/
       : /Error: File size for Twitter image ".*\/app\/twitter-image\.png" exceeds 5MB/
 

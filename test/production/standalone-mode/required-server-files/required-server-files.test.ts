@@ -169,7 +169,7 @@ describe('required server files', () => {
   })
 
   it('should resolve correctly when a redirect is returned', async () => {
-    const toRename = `standalone/.next/server/pages/route-resolving/[slug]/[project].html`
+    const toRename = `standalone/.next/server/pages/route-resolving/[slug]/PROJECT.html`
     await next.renameFile(toRename, `${toRename}.bak`)
     try {
       const res = await fetchViaHTTP(
@@ -1411,7 +1411,7 @@ describe('required server files', () => {
       undefined,
       {
         headers: {
-          'x-matched-path': '/[teamSlug]/[project]/[id]/[suffix]',
+          'x-matched-path': '/[teamSlug]/PROJECT/[id]/[suffix]',
         },
       }
     )

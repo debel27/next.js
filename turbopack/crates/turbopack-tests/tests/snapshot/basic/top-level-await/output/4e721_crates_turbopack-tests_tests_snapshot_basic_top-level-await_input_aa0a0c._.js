@@ -1,6 +1,6 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["output/4e721_crates_turbopack-tests_tests_snapshot_basic_top-level-await_input_aa0a0c._.js", {
 
-"[project]/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/db-connection.js [test] (ecmascript)": ((__turbopack_context__) => {
+"PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/db-connection.js [test] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, d: __dirname, a: __turbopack_async_module__ } = __turbopack_context__;
@@ -26,7 +26,7 @@ const close = ()=>{
 };
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, true);}),
-"[project]/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/UserAPI.js [test] (ecmascript)": ((__turbopack_context__) => {
+"PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/UserAPI.js [test] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, d: __dirname, a: __turbopack_async_module__ } = __turbopack_context__;
@@ -34,7 +34,7 @@ __turbopack_async_module__(async (__turbopack_handle_async_dependencies__, __tur
 __turbopack_context__.s({
     "createUser": (()=>createUser)
 });
-var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$basic$2f$top$2d$level$2d$await$2f$input$2f$db$2d$connection$2e$js__$5b$test$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/db-connection.js [test] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$basic$2f$top$2d$level$2d$await$2f$input$2f$db$2d$connection$2e$js__$5b$test$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/basic/top-level-await/input/db-connection.js [test] (ecmascript)");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
     __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$basic$2f$top$2d$level$2d$await$2f$input$2f$db$2d$connection$2e$js__$5b$test$5d$__$28$ecmascript$29$__
 ]);

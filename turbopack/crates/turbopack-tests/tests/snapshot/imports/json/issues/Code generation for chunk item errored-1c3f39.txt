@@ -1,11 +1,11 @@
-error - [code gen] [project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json  Code generation for chunk item errored
-  An error occurred while generating the chunk item [project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json (json)
-  
+error - [code gen] PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json  Code generation for chunk item errored
+  An error occurred while generating the chunk item PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json (json)
+
   Caused by:
   - Unable to make a module from invalid JSON: expected `,` or `}` at line 3 column 26
-  
+
   Debug info:
-  - An error occurred while generating the chunk item [project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json (json)
+  - An error occurred while generating the chunk item PROJECT/turbopack/crates/turbopack-tests/tests/snapshot/imports/json/input/invalid.json (json)
   - Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
   - Unable to make a module from invalid JSON: expected `,` or `}` at line 3 column 26
       at nested.?

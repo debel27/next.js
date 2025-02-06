@@ -139,7 +139,7 @@ pub fn format_issue(
     let context_path = plain_issue
         .file_path
         // TODO: This seemed like it was always inaccurate
-        // [project] shouldn't be in here to begin with
+        // PROJECT shouldn't be in here to begin with
         // or it should be an actual URL where we could just read the pathname.
         .replace("PROJECT", &current_dir.to_string_lossy())
         .replace("/./", "/")
