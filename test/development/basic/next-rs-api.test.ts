@@ -16,11 +16,8 @@ import path from 'path'
 
 function normalizePath(path: string) {
   return path
-    .replace(/\[project\].+\/node_modules\//g, 'PROJECT/.../node_modules/')
-    .replace(
-      /\[project\]\/packages\/next\//g,
-      'PROJECT/.../node_modules/next/'
-    )
+    .replace(/PROJECT.+\/node_modules\//g, 'PROJECT/.../node_modules/')
+    .replace(/PROJECT\/packages\/next\//g, 'PROJECT/.../node_modules/next/')
 }
 
 function styledStringToMarkdown(styled: StyledString): string {
