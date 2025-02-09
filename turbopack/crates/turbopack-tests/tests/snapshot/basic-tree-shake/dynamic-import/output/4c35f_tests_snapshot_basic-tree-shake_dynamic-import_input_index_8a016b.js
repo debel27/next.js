@@ -1,7 +1,6 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack://project/turbopack/crates/turbopack-tests/tests/snapshot/basic-tree-shake/dynamic-import/input/index.js"],"sourcesContent":["async function main() {\n  const lib = await import(\"./lib\");\n  console.log(lib.cat);\n}\n\n\nmain()\n"],"names":[],"mappings":"AAAA,eAAe;IACb,MAAM,MAAM;IACZ,QAAQ,GAAG,CAAC,IAAI,GAAG;AACrB;AAGA"}},
-    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "output/4c35f_tests_snapshot_basic-tree-shake_dynamic-import_input_index_8a016b.js",
+    {},
+    {"otherChunks":["output/b1abf_turbopack-tests_tests_snapshot_basic-tree-shake_dynamic-import_input_lib_1b3d4d.js","output/4c35f_tests_snapshot_basic-tree-shake_dynamic-import_input_index_b96d91.js"],"runtimeModuleIds":["project/turbopack/crates/turbopack-tests/tests/snapshot/basic-tree-shake/dynamic-import/input/index.js [test] (ecmascript)"]}
+]);
+// Dummy runtime
